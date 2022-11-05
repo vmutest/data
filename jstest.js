@@ -1,6 +1,6 @@
 window.addEventListener('load',function(){
   var q=$('.question'),
-  w=["A+ rồi kìa","Học hành gì tầm này nữa","Ôn bài thêm tí nữa","Đọc sách thêm đi cưng"]
+  w=["A+ rồi kìa","Tính lấy con A hay sao mà chăm zữ","Ôn bài thêm tí nữa","Học hành gì tầm này nữa"]
   $(q).each(function(n){
     var ul=$(q[n]).find('ul'),mes=$(q[n]).parent().find('.message')
     console.log(mes)
