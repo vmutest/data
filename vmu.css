@@ -1,4 +1,4 @@
-  .box-question{float:left;width:100%;font-family:Roboto,Arial,sans-serif;font-size:1rem;color:#333}
+  .box-question{float:left;width:95%;font-family:Roboto,Arial,sans-serif;font-size:1rem;color:#333}
 .box-question h2,.box-question h3{margin-bottom:20px!important;cursor:default}
 .box-question h2{font-size:1.3rem!important}
 .box-question h3{font-size:1.2rem!important;font-weight:normal!important}
@@ -9,7 +9,7 @@ table.picture img{max-width:100%;width:100%;height:auto;display:block}
 table.picture td.caption{padding:20px 20px 0 20px!important;color:#000}
 .question ul{margin:10px 0 20px!important;list-style:none;padding:0!important}
 .question ul>li{float:left;width:100%;background: #00cfd1db;padding:15px 10px 15px 50px;margin-bottom:5px;position:relative;font-weight:bold!important;border-radius:30px;list-style-type:none!important;line-height:1.6}
-.question ul>li:before{display:block;position:absolute;top:13px;left:10px;width:30px;height:30px;border-radius:100%;background:#026364db;text-align:center;line-height:30px}
+.question ul>li:before{display:block;position:absolute;top:13px;left:10px;width:30px;height:30px;border-radius:100%;background:#FFFAFAdb;text-align:center;line-height:30px}
 .question ul>li:first-child:before{content:"A"}
 .question ul>li:nth-child(2):before{content:"B"}
 .question ul>li:nth-child(3):before{content:"C"}
