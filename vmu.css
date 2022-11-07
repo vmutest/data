@@ -8,8 +8,8 @@ table.picture td{position:relative;cursor:default}
 table.picture img{max-width:100%;width:100%;height:auto;display:block}
 table.picture td.caption{padding:20px 20px 0 20px!important;color:#000}
 .question ul{margin:10px 0 20px!important;list-style:none;padding:0!important}
-.question ul>li{float:left;width:100%;background: #228B22;padding:15px 10px 15px 50px;margin-bottom:5px;position:relative;font-weight:bold!important;border-radius:30px;list-style-type:none!important;line-height:1.6}
-.question ul>li:before{display:block;position:absolute;top:13px;left:10px;width:30px;height:30px;border-radius:100%;background:#000080;text-align:center;line-height:30px}
+.question ul>li{float:left;width:100%;background: #00cfd1db;padding:15px 10px 15px 50px;margin-bottom:5px;position:relative;font-weight:bold!important;border-radius:30px;list-style-type:none!important;line-height:1.6}
+.question ul>li:before{display:block;position:absolute;top:13px;left:10px;width:30px;height:30px;border-radius:100%;background:#026364db;text-align:center;line-height:30px}
 .question ul>li:first-child:before{content:"A"}
 .question ul>li:nth-child(2):before{content:"B"}
 .question ul>li:nth-child(3):before{content:"C"}
@@ -21,14 +21,14 @@ table.picture td.caption{padding:20px 20px 0 20px!important;color:#000}
 .question ul>li>span,.question ul>li>strong{color:#000!important;font-weight:bold!important}
 .question ul.answered>li:not(.selected):not(.vmu){opacity:0.4}
 .question ul.answered>li.selected{opacity:1;border-radius:5px}
-.question ul.answered>li.selected:not(.vmu){background:#FFFF00}
-.question ul.answered>li.vmu{background:#FF4500}
+.question ul.answered>li.selected:not(.vmu){background:#f16464}
+.question ul.answered>li.vmu{background:#55d000}
 .question ul+p:not(.explaination){display:none;margin:15px 0}
 .question ul>li>p.explaination{margin:0;color:#fff;font-weight:normal}
-.question+.result{float:left;width:100%;margin:20px 0;position:relative;background:#FF00FF;font-weight:300;text-align:center;font-size:1.8rem;padding:20px 10px 25px;line-height:1.1}
+.question+.result{float:left;width:100%;margin:20px 0;position:relative;background:#f3f3f3;font-weight:300;text-align:center;font-size:1.8rem;padding:20px 10px 25px;line-height:1.1}
 .question+.result:before{content:"Kết quả";color:#888;text-align:center;margin-right:10px;display:block;font-size:0.8em;border-bottom:1px solid #ddd;padding-bottom:20px;margin-bottom:30px}
 .question+.result>.message{display:block;margin:15px 0}
-.question+.result>.vmu{color:#ADFF2F;font-weight:bold;font-size:2em}
+.question+.result>.vmu{color:#55d000;font-weight:bold;font-size:2em}
 .question+.result>.total{font-size:2em;color:#f16464}
 .question+.result>.total:before{content:"/"}
 @media(min-width:1025px){.question ul:not(.answered)>li{cursor:pointer}.question ul.answered>li{cursor:default;pointer-events:none}}
