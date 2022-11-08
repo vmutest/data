@@ -8,7 +8,7 @@ table.picture td{position:relative;cursor:default}
 table.picture img{max-width:100%;width:100%;height:auto;display:block}
 table.picture td.caption{padding:20px 20px 0 20px!important;color:#000}
 .question ul{margin:10px 0 20px!important;list-style:none;padding:0!important}
-.question ul>li{float:left;width:100%;background: #C0C0C0;padding:15px 10px 15px 50px;margin-bottom:5px;position:relative;font-weight:bold!important;border-radius:30px;list-style-type:none!important;line-height:1.6}
+.question ul>li{float:left;width:100%;background: #EEEEEE;padding:15px 10px 15px 50px;margin-bottom:5px;position:relative;font-weight:bold!important;border-radius:30px;list-style-type:none!important;line-height:1.6}
 .question ul>li:before{display:block;position:absolute;top:13px;left:10px;width:30px;height:30px;border-radius:100%;background:#FFFFFF;text-align:center;line-height:30px}
 .question ul>li:first-child:before{content:"A"}
 .question ul>li:nth-child(2):before{content:"B"}
