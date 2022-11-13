@@ -1,6 +1,6 @@
 window.addEventListener('load',function(){
   var q=$('.question'),
-  w=["Quá tuyệt vời","Giỏi rồi đó","Ôn bài thêm tí nữa","Đọc thêm sách đi em!"]
+  w=["A+ - Xuất sắc","B+ - Khá ","C+ - Trung Bình "," Chuẩn bị tiền đóng học lại thôi !!!"]
   $(q).each(function(n){
     var ul=$(q[n]).find('ul'),mes=$(q[n]).parent().find('.message')
     console.log(mes)
