@@ -95,7 +95,7 @@ window.addEventListener('load', function () {
                         else $(mes).html(w[8]);
                     });
                 } else {
-                    nextTimeOut = setTimeout(nextQuestion, 3000);
+                    nextTimeOut = setTimeout(nextQuestion, 2000);
                 }
             });
         });
