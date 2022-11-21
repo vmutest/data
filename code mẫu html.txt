@@ -1,0 +1,111 @@
+<span style="font-size: 12px">
+	<link rel="stylesheet" href="./test.css ">
+	<script src="https://vmutest.github.io/data/jquery.js" type="text/javascript"></script>
+	<script src="./main.js" type="text/javascript"></script>
+	<div class="question">
+		<td class="caption">
+			<div class="question-container qs-1">
+				<h3>Câu 1.Thị lực không bị ảnh hưởng bởi yếu tố:</h3>
+				<ul>
+					<li class="answer"> Tuổi
+					<li class="answer"> Độ sáng phòng thử
+					<li class="answer"> Đường kính đồng tử
+					<li class="answer vmu"> Giới
+				</ul>
+			</div>
+			<div class="question-container qs-2">
+				<h3>Câu 2. Hội chứng đỉnh hốc mắt không gây tổn thương dây thần kinh số:</h3>
+				<ul>
+					<li class="answer vmu"> IV, V, VI và VII
+					<li class="answer"> III, V và VI
+					<li class="answer"> III, IV, V và VI
+					<li class="answer"> II, III, IV và V
+				</ul>
+			</div>
+			<div class="question-container qs-3">
+				<h3>Câu 3. Bệnh lý hay gây tổn thương giao thoa thị giác là: </h3>
+				<ul>
+					<li class="answer vmu"> U tuyến yên
+					<li class="answer"> Xuất huyết não
+					<li class="answer"> Áp-xe não
+					<li class="answer"> Lao màng não
+				</ul>
+			</div>
+			<div class="question-container qs-4">
+				<h3>Câu 4. Đặc điểm đỏ mắt do bức xạ:</h3>
+				<ul>
+					<li class="answer"> Điều trị cần dùng kháng sinh mạnh.
+					<li class="answer"> Cương tụ rìa.
+					<li class="answer"> Nguyên nhân thường do nhiễm khuẩn.
+					<li class="answer vmu"> Đau nhức mắt dữ dội, chảy nước mắt.
+				</ul>
+			</div>
+			<div class="question-container qs-5">
+				<h3>Câu 5. Bệnh nhân nhìn mờ có dấu hiệu quáng gà, thu hẹp thị trường hình ống có thể gặp trong
+					bệnh:
+				</h3>
+				<ul>
+					<li class="answer"> Viêm thị thần kinh
+					<li class="answer vmu"> Bệnh võng mạc sắc tố.
+					<li class="answer"> Bong võng mạc.
+					<li class="answer"> Viêm võng mạc trung tâm.
+				</ul>
+			</div>
+			<div class="question-container qs-6">
+				<h3>Câu 6. Thuốc kháng sinh được dùng để điều trị bệnh mắt hột là:</h3>
+				<ul>
+					<li class="answer"> Cephalosporin
+					<li class="answer"> Chloramphenicol
+					<li class="answer"> Fluoroquinolon
+					<li class="answer vmu"> Tetracyclin
+				</ul>
+			</div>
+			<div class="question-container qs-7">
+				<h3>Câu 7. Thuốc không được dùng cho bệnh nhân bị glôcôm góc đóng là:</h3>
+				<ul>
+					<li class="answer"> Pilocacpin
+					<li class="answer"> Timolol
+					<li class="answer vmu"> Atropin
+					<li class="answer"> Cloroxit
+				</ul>
+			</div>
+			<div class="question-container qs-8">
+				<h3>Câu 8. Các biến chứng do bệnh mắt hột thường gặp ở giai đoạn:</h3>
+				<ul>
+					<li class="answer"> TrIV
+					<li class="answer"> TrII
+					<li class="answer vmu"> TrIII
+					<li class="answer"> TrI
+				</ul>
+			</div>
+			<div class="question-container qs-9">
+				<h3>Câu 9. Ổ loét giác mạc có hình cành cây nghĩ đến tác nhân gây bệnh là:</h3>
+				<ul>
+					<li class="answer"> Trực khuẩn mủ xanh.
+					<li class="answer"> Nấm.
+					<li class="answer vmu"> Virut Herpes.
+					<li class="answer"> Lậu cầu.
+				</ul>
+			</div>
+			<div class="question-container qs-10">
+				<h3>Câu 10. Bệnh đái tháo đường thường gây tổn hại ở:</h3>
+				<ul>
+					<li class="answer"> Kết mạc
+					<li class="answer"> Giác mạc
+					<li class="answer"> Mi mắt
+					<li class="answer vmu"> Võng mạc
+				</ul>
+			</div>
+			<p></p>
+			<div class="btn-container">
+				<button class="btn" id="btn-prev">
+					Câu trước
+				</button>
+				<button class="btn" id="btn-next">
+					Câu sau
+				</button>
+			</div>
+		</td>
+
+		<div class="result"><span class="message"> Make by DrB </span></div>
+	</div>
