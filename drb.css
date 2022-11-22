@@ -1,7 +1,10 @@
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+
 .box-question {
     float: left;
     width: 100%;
-    font-family: Roboto, Arial, sans-serif;
     font-size: 1rem;
     color: #333;
 }
@@ -222,4 +225,16 @@ table.picture td.caption {
 
 .btn.hide {
     display: none;
+}
+
+.result {
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.result .message {
+    color: #f16464;
+    margin-right: 10px;
 }
