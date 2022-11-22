@@ -42,17 +42,7 @@ window.addEventListener('load', function () {
     showQuestion(currentQuestion);
 
     var q = $('.question'),
-        w = [
-            'A+',
-            'A',
-            'B+',
-            'B',
-            'C+',
-            'C',
-            'D+',
-            'D',
-            'F',
-        ];
+        w = ['A+', 'A', 'B+', 'B', 'C+', 'C', 'D+', 'D', 'F'];
 
     $(q).each(function (n) {
         var ul = $(q[n]).find('ul'),
@@ -79,7 +69,7 @@ window.addEventListener('load', function () {
                     (v =
                         '<span class="vmu">' +
                         corr +
-                        '</span><span class="total">' +
+                        '</span>/<span class="total">' +
                         ul.length +
                         '</span>'),
                         $(v).insertAfter($(mes));
