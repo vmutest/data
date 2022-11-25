@@ -244,6 +244,12 @@ table.picture td.caption {
     margin-top: 16px;
 }
 
+@media (max-width: 1024px) {
+    #grid-question-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
 #grid-question-container .grid-question-item {
     display: flex;
     flex-direction: column;
